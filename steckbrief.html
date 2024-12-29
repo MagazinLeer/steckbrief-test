@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Militärischer Steckbrief</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #d4d4d4;
+            margin: 0;
+            padding: 0;
+        }
+        .steckbrief-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #2b2b2b;
+            border: 2px solid #4b5320;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .header {
+            text-align: center;
+            color: #f4f4f4;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ffcc00;
+        }
+        .header h2 {
+            margin: 10px 0 20px 0;
+            font-size: 1.5em;
+            color: #808080;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border: 2px solid #4b5320;
+            border-radius: 5px;
+        }
+        .details {
+            flex: 2;
+        }
+        .details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details ul li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .details ul li span {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <div class="steckbrief-container">
+        <div class="header">
+            <h1>Militärischer Steckbrief</h1>
+            <h2>Code-Name: <span>"Shadow Wolf"</span></h2>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <img src="soldier.jpg" alt="Soldat Foto">
+            </div>
+            <div class="details">
+                <ul>
+                    <li><span>Rang:</span> Major</li>
+                    <li><span>Einheit:</span> 12. Spezialkräfte Division</li>
+                    <li><span>Geburtsdatum:</span> 14. März 1985</li>
+                    <li><span>Nationalität:</span> Deutsch</li>
+                    <li><span>Spezialisierung:</span> Taktische Aufklärung, Präzisionsschützen</li>
+                    <li><span>Missionen:</span> 34 abgeschlossene Operationen</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Geheimhaltungsstufe: <span style="color: red; font-weight: bold;">Streng geheim</span></p>
+        </div>
+    </div>
+</body>
+</html>
